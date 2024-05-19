@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 1, Errors: 0, Skipped: 18, Time elapsed: 89.03 s <<< FAILURE! - in TestSuite
+com.starquick.test.OrangeHRMTests.setUp[[Ljava.lang.Object;@235af538](0)  Time elapsed: 19.817 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+

@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="7" failed="0" skipped="11">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-25T15:32:57 IST" name="Suite" finished-at="2024-05-25T15:34:23 IST" duration-ms="86492">
+    <groups>
+    </groups>
+    <test started-at="2024-05-25T15:32:57 IST" name="Test" finished-at="2024-05-25T15:34:23 IST" duration-ms="86492">
+      <class name="com.starquick.test.OrangeHRMTests">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:32:58 IST" name="setUp" finished-at="2024-05-25T15:33:10 IST" duration-ms="12380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@55cff952]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:32:58 IST" name="setUp" finished-at="2024-05-25T15:33:33 IST" duration-ms="35103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1965539b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:32:58 IST" name="setUp" finished-at="2024-05-25T15:33:35 IST" duration-ms="36741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2fc07784]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:32:58 IST" name="setUp" finished-at="2024-05-25T15:33:28 IST" duration-ms="29746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@353efdbf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:32:58 IST" name="setUp" finished-at="2024-05-25T15:33:09 IST" duration-ms="11215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@660591fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:32:58 IST" name="setUp" finished-at="2024-05-25T15:33:28 IST" duration-ms="30288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4a55a6e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:09 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:33:20 IST" duration-ms="11401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=amuthan, password=YWRtaW4xMjM=, browser=Chrome, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:10 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:33:21 IST" duration-ms="11328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=testing Neosoft Technology, password=YWRtaW4xMjM=, browser=Chrome, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:22 IST" name="tearDown" finished-at="2024-05-25T15:33:22 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:22 IST" name="setUp" finished-at="2024-05-25T15:34:01 IST" duration-ms="39766" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@235af538]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:23 IST" name="tearDown" finished-at="2024-05-25T15:33:24 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:24 IST" name="setUp" finished-at="2024-05-25T15:33:42 IST" duration-ms="17934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@8c46918]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:28 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:33:52 IST" duration-ms="24971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Meetings, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:28 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:33:51 IST" duration-ms="22609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Web Werks, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:33 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="28320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:35 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:00 IST" duration-ms="25538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:42 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:33:58 IST" duration-ms="16820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=amuthan, password=YWRtaW4xMjM=, browser=Chrome, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:54 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="6867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:33:55 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="5974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:00 IST" name="tearDown" finished-at="2024-05-25T15:34:00 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:00 IST" name="setUp" finished-at="2024-05-25T15:34:14 IST" duration-ms="13847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@226b143b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:00 IST" name="tearDown" finished-at="2024-05-25T15:34:06 IST" duration-ms="5278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:20 IST" duration-ms="19582" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@682bd3c4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:19 IST" duration-ms="18211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@f2e4acf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=amuthan, password=YWRtaW4xMjM=, browser=Chrome, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=amuthan, password=YWRtaW4xMjM=, browser=Chrome, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="setUp" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:01 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=amuthan, password=YWRtaW4xMjM=, browser=Chrome, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:01 IST" name="tearDown" finished-at="2024-05-25T15:34:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:02 IST" name="tearDown" finished-at="2024-05-25T15:34:07 IST" duration-ms="5421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:14 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:14 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=amuthan, password=YWRtaW4xMjM=, browser=Chrome, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:14 IST" name="tearDown" finished-at="2024-05-25T15:34:14 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:19 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:19 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:19 IST" name="tearDown" finished-at="2024-05-25T15:34:23 IST" duration-ms="4190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:20 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-25T15:34:20 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: New session attempts retry count exceeded 
+Host info: host: 'DESKTOP-CG41JSG', ip: '192.168.0.102'
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}, selenoid:options: {enableVNC: true, enableVideo: true, env: [TZ=UTC], labels: {manual: false}, name: Selenoid FireFox, sessionTimeout: 15m}}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:81)
+at com.starquick.manager.Driver.initDriver(Driver.java:19)
+at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1ddf84b8]" started-at="2024-05-25T15:34:20 IST" name="tearDown" finished-at="2024-05-25T15:34:23 IST" duration-ms="3107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.starquick.test.OrangeHRMTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

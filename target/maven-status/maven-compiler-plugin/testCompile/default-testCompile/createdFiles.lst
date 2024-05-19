@@ -1,0 +1,5 @@
+com\starquick\test\starquickAddproduct.class
+com\starquick\test\BaseTest.class
+com\starquick\test\LoginPageTest.class
+com\starquick\test\OrangeHRMTests.class
+com\starquick\test\HomePageTest.class

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite data-provider-thread-count="6" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.starquick.Listners.ListenerClass"/>
+    <listener class-name="com.starquick.Listners.MethodsListner"/>
+    <listener class-name="com.starquick.Listners.Anotationtranformer"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.starquick.test.OrangeHRMTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginlogout"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.starquick.test.OrangeHRMTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

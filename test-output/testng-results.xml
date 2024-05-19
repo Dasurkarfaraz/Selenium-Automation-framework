@@ -1,211 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="0" failed="0" skipped="8">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-16T15:54:46 IST" name="Suite" finished-at="2024-05-16T15:58:03 IST" duration-ms="197183">
+  <suite started-at="2024-05-19T13:33:29 IST" name="Suite" finished-at="2024-05-19T13:38:18 IST" duration-ms="288784">
     <groups>
     </groups>
-    <test started-at="2024-05-16T15:54:46 IST" name="Test" finished-at="2024-05-16T15:58:03 IST" duration-ms="197183">
+    <test started-at="2024-05-19T13:33:29 IST" name="Test" finished-at="2024-05-19T13:38:18 IST" duration-ms="288784">
       <class name="com.starquick.test.OrangeHRMTests">
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:54:53 IST" name="setUp" finished-at="2024-05-16T15:58:02 IST" duration-ms="188829" status="FAIL">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:33:34 IST" name="setUp" finished-at="2024-05-19T13:35:08 IST" duration-ms="94136" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@648ee871]]>
+                <![CDATA[[Ljava.lang.Object;@4eb45fec]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:54:53 IST" name="setUp" finished-at="2024-05-16T15:58:02 IST" duration-ms="188797" status="FAIL">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:33:34 IST" name="setUp" finished-at="2024-05-19T13:35:08 IST" duration-ms="94290" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[Ljava.lang.Object;@375b5b7f]]>
+                <![CDATA[[Ljava.lang.Object;@211febf3]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:44)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:54:54 IST" name="setUp" finished-at="2024-05-16T15:58:02 IST" duration-ms="188664" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@a619c2]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:02 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-16T15:58:02 IST" duration-ms="26" status="SKIP">
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:35:08 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-19T13:35:32 IST" duration-ms="24629" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,65 +37,10 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginlogout -->
-        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:02 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-16T15:58:02 IST" duration-ms="5" status="SKIP">
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:35:08 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-19T13:35:27 IST" duration-ms="19265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,65 +48,40 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginlogout -->
-        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:02 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-16T15:58:02 IST" duration-ms="2" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:35:28 IST" name="tearDown" finished-at="2024-05-19T13:35:28 IST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:35:28 IST" name="setUp" finished-at="2024-05-19T13:36:15 IST" duration-ms="46553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3bd3d05e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:35:33 IST" name="tearDown" finished-at="2024-05-19T13:35:34 IST" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:35:34 IST" name="setUp" finished-at="2024-05-19T13:36:53 IST" duration-ms="79442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@6aba5d30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:36:15 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-19T13:36:29 IST" duration-ms="14236" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -345,77 +89,25 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginlogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="tearDown" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:36:30 IST" name="tearDown" finished-at="2024-05-19T13:36:34 IST" duration-ms="3598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="tearDown" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="setUp" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:36:34 IST" name="setUp" finished-at="2024-05-19T13:37:16 IST" duration-ms="42166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@61d34b4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:36:53 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-19T13:37:02 IST" duration-ms="8341" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -423,81 +115,25 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginlogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="tearDown" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:02 IST" name="tearDown" finished-at="2024-05-19T13:37:04 IST" duration-ms="1946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="tearDown" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="setUp" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:04 IST" name="setUp" finished-at="2024-05-19T13:37:35 IST" duration-ms="31372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@588307f7]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="setUp" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-16T15:58:03 IST" duration-ms="1" status="SKIP">
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:16 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-19T13:37:23 IST" duration-ms="7017" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -505,65 +141,25 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginlogout -->
-        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:23 IST" name="tearDown" finished-at="2024-05-19T13:37:25 IST" duration-ms="1937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:25 IST" name="setUp" finished-at="2024-05-19T13:38:02 IST" duration-ms="37567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7df76d99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:35 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-19T13:37:42 IST" duration-ms="6479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -571,147 +167,25 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginlogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="tearDown" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:42 IST" name="tearDown" finished-at="2024-05-19T13:37:44 IST" duration-ms="2045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="tearDown" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="setUp" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="setUp" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:44 IST" name="setUp" finished-at="2024-05-19T13:37:57 IST" duration-ms="12502" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+                <![CDATA[[Ljava.lang.Object;@459cfcca]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginlogout -->
-        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:37:57 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-19T13:38:06 IST" duration-ms="9962" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -719,69 +193,25 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DESKTOP-9VPGQQF', ip: '10.0.102.62'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
-at com.starquick.manager.DriverFactory.getDriver(DriverFactory.java:29)
-at com.starquick.manager.Driver.initDriver(Driver.java:19)
-at com.starquick.test.BaseTest.setUp(BaseTest.java:20)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
-Driver info: driver.version: Driver
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:396)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:352)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-... 22 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:379)
-... 32 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginlogout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="tearDown" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginlogout(java.util.HashMap)[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:38:02 IST" name="loginlogout" description="To check wheter the user can successfully login and logout" data-provider="getData" finished-at="2024-05-19T13:38:14 IST" duration-ms="11440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{fname=Faraz, password=YWRtaW4xMjM=, browser=Firefox, testname=loginlogout, execute=yes, username=Admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginlogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:38:08 IST" name="tearDown" finished-at="2024-05-19T13:38:08 IST" duration-ms="264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-16T15:58:03 IST" name="tearDown" finished-at="2024-05-16T15:58:03 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.starquick.test.OrangeHRMTests@1a6d8329]" started-at="2024-05-19T13:38:14 IST" name="tearDown" finished-at="2024-05-19T13:38:18 IST" duration-ms="4105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

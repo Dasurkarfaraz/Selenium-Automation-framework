@@ -26,7 +26,7 @@ public final class DriverFactory {
 			if(browserName.equalsIgnoreCase("chrome")) {
 				if(Runmode.equalsIgnoreCase("remote")) {
 					ChromeOptions cap = new ChromeOptions();
-					driver=  new RemoteWebDriver(new URL("http://localhost:4444/"),cap);
+					driver=  new RemoteWebDriver(new URL(PropertyUtils.get(ConfigProperties.SELENIUMGRIDURL)),cap);
 				}else {
 					driver= new ChromeDriver();
 					
@@ -34,14 +34,14 @@ public final class DriverFactory {
 			}else  if(browserName.equalsIgnoreCase("edge")){
 				if(Runmode.equalsIgnoreCase("remote")) {
 					EdgeOptions cap = new EdgeOptions();
-					driver = new RemoteWebDriver(new URL("http://localhost:4444/"),cap);
+					driver = new RemoteWebDriver(new URL(PropertyUtils.get(ConfigProperties.SELENIUMGRIDURL)),cap);
 				}else {
 					driver= new EdgeDriver();	
 				}
 			}else  if(browserName.equalsIgnoreCase("firefox")){
 				if(Runmode.equalsIgnoreCase("remote")) {
 					FirefoxOptions cap = new FirefoxOptions();
-					driver = new RemoteWebDriver(new URL("http://localhost:4444/"),cap);
+					driver = new RemoteWebDriver(new URL(PropertyUtils.get(ConfigProperties.SELENIUMGRIDURL)),cap);
 				}else {
 					driver = new FirefoxDriver();	
 				}

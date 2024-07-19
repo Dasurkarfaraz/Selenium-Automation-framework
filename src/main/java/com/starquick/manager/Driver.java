@@ -14,6 +14,7 @@ public final class Driver {
 	}
 
 	public static void initDriver(String browserName) {
+		
 		if(Objects.isNull(DriverManager.getDriver()) ) {
 			try {
 				DriverManager.setDriver(DriverFactory.getDriver(browserName));

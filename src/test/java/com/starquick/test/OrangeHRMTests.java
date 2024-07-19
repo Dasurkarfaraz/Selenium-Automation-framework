@@ -10,6 +10,7 @@ import com.starquick.customAnotation.FrameworkAnotation;
 import com.starquick.enums.CatogoryType;
 import com.starquick.exceptions.FrameworkException;
 import com.starquick.pages.OrangeHRMLoginPage;
+import com.starquick.pages.TATAOpenLandingPage;
 
 public final class OrangeHRMTests extends BaseTest{
 	

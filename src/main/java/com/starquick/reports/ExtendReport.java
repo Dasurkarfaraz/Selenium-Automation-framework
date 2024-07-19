@@ -33,7 +33,7 @@ public class ExtendReport {
 	public static  void flushreport() throws Exception {
 		if(Objects.nonNull(extent)){
 			extent.flush();
-			Desktop.getDesktop().browse(new File(FrameworkConstranst.getExtendFileReports()).toURI());
+			//Desktop.getDesktop().browse(new File(FrameworkConstranst.getExtendFileReports()).toURI());
 			ExtendReportManager.unload();
 		}
 	}

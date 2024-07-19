@@ -1,7 +1,10 @@
 package com.starquick.pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 
+import com.google.common.util.concurrent.Uninterruptibles;
 import com.starquick.enums.waitStatergy;
 import com.starquick.manager.DriverManager;
 
@@ -12,7 +15,7 @@ public final class OrangeHRMHomepage extends BasePage {
 
 	
 	public OrangeHRMHomepage clickWelcome() throws Exception {
-//		Uninterruptibles.sleepUninterruptibly(30, TimeUnit.SECONDS);
+		Uninterruptibles.sleepUninterruptibly(30, TimeUnit.SECONDS);
 		click(waitStatergy.CLICKABLE,welcomeName,"Profile Name");
 		return this;
 	}

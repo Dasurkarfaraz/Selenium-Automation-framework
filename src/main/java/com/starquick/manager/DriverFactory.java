@@ -16,6 +16,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import com.starquick.enums.ConfigProperties;
 import com.starquick.utils.PropertyUtils;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public final class DriverFactory {
 
 	private DriverFactory() {}
@@ -28,7 +30,11 @@ public final class DriverFactory {
 					ChromeOptions cap = new ChromeOptions();
 					driver=  new RemoteWebDriver(new URL(PropertyUtils.get(ConfigProperties.SELENIUMGRIDURL)),cap);
 				}else {
-					driver= new ChromeDriver();
+					System.out.println("this is chromr Local");
+					ChromeOptions options = new ChromeOptions();
+					System.setProperty("webdriver.chrome.driver", "C:/chromedriver-win64/chromedriver-win64/chromedriver.exe");
+					options.setBinary("C:/chrome-win64/chrome-win64/chrome.exe");
+					driver= new ChromeDriver(options);
 					
 				}
 			}else  if(browserName.equalsIgnoreCase("edge")){

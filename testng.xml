@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" data-provider-thread-count="4">
+<suite name="Suite" data-provider-thread-count="6">
 	<listeners>
 		<listener class-name="com.starquick.Listners.ListenerClass"></listener>
 		<listener class-name="com.starquick.Listners.MethodsListner"></listener>
 		<listener class-name="com.starquick.Listners.Anotationtranformer"></listener>
 	</listeners>
-	<test thread-count="5" name="Test" parallel="methods">
+	<test thread-count="1" name="Test" parallel="methods">
 		<classes>
-			<class name="com.starquick.test.OrangeHRMTests" />
+			<class name="com.starquick.test.starquickAddproduct" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

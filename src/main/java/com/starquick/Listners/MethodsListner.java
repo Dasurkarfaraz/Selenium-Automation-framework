@@ -22,11 +22,18 @@ public class MethodsListner implements IMethodInterceptor {
 
 		List<Map<String, String>> list = null;
 		list = ExcelUtils.getTestDetails(FrameworkConstranst.getRunerdatasheet());
+		System.out.println(list);
+		System.out.println(methods.get(0).getMethod().getMethodName().equalsIgnoreCase(list.get(0).get("testname")));
+		System.out.println(list.get(0).get("execute").equalsIgnoreCase("yes"));
+	//	System.out.println(list.get(1).get("execute").equalsIgnoreCase("yes"));
 		List<IMethodInstance> result = new ArrayList<>();
 		for (int i = 0; i < methods.size(); i++) {
 			for (int j = 0; j < list.size(); j++) {
+				System.out.println(methods.get(i).getMethod().getMethodName().equalsIgnoreCase(list.get(j).get("testname")));
+				
+				System.out.println(list.get(j).get("execute").equalsIgnoreCase("yes"));
 				if (methods.get(i).getMethod().getMethodName().equalsIgnoreCase(list.get(j).get("testname")) && list.get(j).get("execute").equalsIgnoreCase("yes")) {
-						methods.get(i).getMethod().setDescription(list.get(j).get("testdescription"));
+						methods.get(i).getMethod().setDescription(list.get(j).get("	"));
 						methods.get(i).getMethod().setInvocationCount(Integer.parseInt(list.get(j).get("count")));
 						methods.get(i).getMethod().setInvocationCount(Integer.parseInt(list.get(j).get("priority")));
 						result.add(methods.get(i));
@@ -34,7 +41,7 @@ public class MethodsListner implements IMethodInterceptor {
 				}
 			}
 		
-
+System.out.println(result.toString());
 		return result;
 	}
 }

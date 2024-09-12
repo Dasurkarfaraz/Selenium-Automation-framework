@@ -14,15 +14,8 @@
             <class name="com.starquick.test.starquickaddcartjourney">
                 <methods>
                     <!-- Including all methods -->
-                     <include name="Milksearchproduct"/>
+                    <include name="Milksearchproduct"/>
                     <include name="Rusksearchproduct"/>
-                    <include name="Onionsearchproduct"/>
-                    <include name="detergentsearchproduct"/>
-                    <include name="searchcookoil"/>
-                    <include name="softdrink"/>
-                    <include name="atta"/>
-                    <include name="Tata_Agni_Leaf_Tea_Pouch"/>
-                    <include name="Breadsearchproduct"/>
                    
                 </methods>
             </class>

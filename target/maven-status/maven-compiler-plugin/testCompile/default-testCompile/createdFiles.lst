@@ -1,5 +1,5 @@
+com\starquick\test\BaseTest.class
 com\starquick\test\SlackAlertExample.class
+com\starquick\test\starquickaddcartjourney.class
 com\starquick\test\testuser.class
 com\starquick\test\WhatsAppAutomation.class
-com\starquick\test\BaseTest.class
-com\starquick\test\starquickaddcartjourney.class

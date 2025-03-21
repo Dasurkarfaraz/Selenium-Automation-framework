@@ -1,47 +1,59 @@
+/**
+ * This package contains listeners for customizing TestNG behavior in the Starquick framework.
+ */
 package com.starquick.Listners;
 
 import com.starquick.utils.ExcelUtils;
 import org.testng.IMethodInstance;
 import org.testng.IMethodInterceptor;
 import org.testng.ITestContext;
-import com.starquick.constants.*;
+import com.starquick.constants.FrameworkConstants;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+
 /**
- * Method listner which help to set the Invocation count 
+ * MethodsListner implements the TestNG {@link IMethodInterceptor} interface to modify 
+ * the invocation count and description of test methods based on data from an Excel sheet.
+ * 
+ * <p>This listener is used to dynamically set the number of times a test method should be 
+ * invoked and its description based on configuration data retrieved from an Excel sheet. 
+ * It helps in controlling test execution and prioritization.</p>
  * 
  * @author Faraz Dasurkar
- * @Version 1.0
- *@Since 2024
+ * @version 1.0
+ * @since 2024
  */
 public class MethodsListner implements IMethodInterceptor {
-	
-	@Override
-	public List<IMethodInstance> intercept(List<IMethodInstance> methods, ITestContext context) {
 
-		List<Map<String, String>> list = null;
-		list = ExcelUtils.getTestDetails(FrameworkConstranst.getRunerdatasheet());
-		System.out.println(list);
-		System.out.println(methods.get(0).getMethod().getMethodName().equalsIgnoreCase(list.get(0).get("testname")));
-		System.out.println(list.get(0).get("execute").equalsIgnoreCase("yes"));
-	//	System.out.println(list.get(1).get("execute").equalsIgnoreCase("yes"));
-		List<IMethodInstance> result = new ArrayList<>();
-		for (int i = 0; i < methods.size(); i++) {
-			for (int j = 0; j < list.size(); j++) {
-				System.out.println(methods.get(i).getMethod().getMethodName().equalsIgnoreCase(list.get(j).get("testname")));
-				
-				System.out.println(list.get(j).get("execute").equalsIgnoreCase("yes"));
-				if (methods.get(i).getMethod().getMethodName().equalsIgnoreCase(list.get(j).get("testname")) && list.get(j).get("execute").equalsIgnoreCase("yes")) {
-						methods.get(i).getMethod().setDescription(list.get(j).get("	"));
-						methods.get(i).getMethod().setInvocationCount(Integer.parseInt(list.get(j).get("count")));
-						methods.get(i).getMethod().setInvocationCount(Integer.parseInt(list.get(j).get("priority")));
-						result.add(methods.get(i));
-					}
-				}
-			}
-		
-System.out.println(result.toString());
-		return result;
-	}
+    /**
+     * Intercepts the list of test methods and modifies their invocation count and description
+     * based on data from an Excel sheet.
+     * 
+     * @param methods the list of test methods to be intercepted
+     * @param context the test context
+     * @return a modified list of test methods with updated invocation counts and descriptions
+     */
+    @Override
+    public List<IMethodInstance> intercept(List<IMethodInstance> methods, ITestContext context) {
+
+        List<Map<String, String>> list = ExcelUtils.getTestDetails(FrameworkConstants.getRunerdatasheet());
+        List<IMethodInstance> result = new ArrayList<>();
+        
+        for (IMethodInstance methodInstance : methods) {
+            for (Map<String, String> testDetails : list) {
+                String testName = testDetails.get("testname");
+                String execute = testDetails.get("execute");
+                if (methodInstance.getMethod().getMethodName().equalsIgnoreCase(testName) && "yes".equalsIgnoreCase(execute)) {
+                    methodInstance.getMethod().setDescription(testDetails.get(""));
+                    methodInstance.getMethod().setInvocationCount(Integer.parseInt(testDetails.get("count")));
+                    methodInstance.getMethod().setPriority(Integer.parseInt(testDetails.get("priority")));
+                    result.add(methodInstance);
+                }
+            }
+        }
+        
+        return result;
+    }
 }
